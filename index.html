@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gloria Technology — Planes de Diseño Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <span class="logo-icon">◆</span>
+      <span class="logo-text">GLORIA <span class="logo-accent">TECHNOLOGY</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#planes">Planes</a>
+      <a href="#comparativa">Comparativa</a>
+      <a href="#demos">Demos</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://wa.me/15551234567?text=Hola!%20Quiero%20más%20información%20sobre%20los%20planes." target="_blank" class="btn-nav-cta">Hablar por WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg">
+    <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+    <div class="hero-blob hero-blob-3"></div>
+  </div>
+
+  <div class="hero-inner">
+    <span class="hero-badge" data-animate="fade-up">✦ Diseño web profesional</span>
+    <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+      Páginas web que <span class="highlight">venden</span>,<br>
+      hechas a tu medida.
+    </h1>
+    <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+      Tres planes diseñados para emprendimientos y pequeñas empresas.
+      Elige el tuyo y empieza a vender por WhatsApp en 5 días.
+    </p>
+
+    <div class="hero-cta" data-animate="fade-up" data-delay="300">
+      <a href="#planes" class="btn-primary">Ver los Planes</a>
+      <a href="https://wa.me/15551234567?text=Hola!%20Quiero%20asesoría%20para%20elegir%20un%20plan." target="_blank" class="btn-outline">Asesoría gratuita</a>
+    </div>
+
+    <div class="hero-stats" data-animate="fade-up" data-delay="400">
+      <div class="stat">
+        <strong>+50</strong>
+        <span>Webs entregadas</span>
+      </div>
+      <div class="stat">
+        <strong>4.9/5</strong>
+        <span>Satisfacción</span>
+      </div>
+      <div class="stat">
+        <strong>5 días</strong>
+        <span>Tiempo de entrega</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint">
+    <span>Desliza para ver los planes</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+      <path d="M12 5v14M5 12l7 7 7-7"/>
+    </svg>
+  </div>
+</section>
+
+<!-- INTRO A LOS PLANES -->
+<section class="plans-intro" id="planes">
+  <div class="section-header" data-animate="fade-up">
+    <span class="section-eyebrow">Nuestros Planes</span>
+    <h2>Elige el plan perfecto <br>para tu negocio</h2>
+    <p>Del más simple al más completo. Todos incluyen diseño responsive, WhatsApp y entrega rápida.</p>
+  </div>
+
+  <div class="plans-mini-grid">
+    <div class="plan-mini" data-animate="fade-up" data-delay="100">
+      <div class="plan-mini-icon">🌱</div>
+      <h3>Esencial</h3>
+      <p>Tu tarjeta de presentación digital</p>
+      <span class="plan-mini-price">$200.000</span>
+      <a href="#esencial" class="plan-mini-link">Ver detalles ↓</a>
+    </div>
+    <div class="plan-mini featured" data-animate="fade-up" data-delay="200">
+      <div class="plan-mini-badge">Más elegido</div>
+      <div class="plan-mini-icon">🌿</div>
+      <h3>Pro</h3>
+      <p>Muestra tus productos con estilo</p>
+      <span class="plan-mini-price">$300.000</span>
+      <a href="#pro" class="plan-mini-link">Ver detalles ↓</a>
+    </div>
+    <div class="plan-mini" data-animate="fade-up" data-delay="300">
+      <div class="plan-mini-icon">🌳</div>
+      <h3>Premium</h3>
+      <p>Tu tienda online completa</p>
+      <span class="plan-mini-price">$450.000</span>
+      <a href="#premium" class="plan-mini-link">Ver detalles ↓</a>
+    </div>
+  </div>
+</section>
+
+<!-- PLAN ESENCIAL -->
+<section class="plan-detail" id="esencial">
+  <div class="plan-detail-inner">
+
+    <div class="plan-detail-content" data-animate="fade-right">
+      <span class="plan-detail-badge">Paquete 01</span>
+      <h2 class="plan-detail-title">Esencial</h2>
+      <p class="plan-detail-tagline">Tu tarjeta de presentación digital. Ideal para quienes necesitan estar en Google y dar sus datos de contacto rápido.</p>
+
+      <div class="plan-detail-price">
+        <span class="price-amount">$200.000</span>
+        <span class="price-note">pago único</span>
+      </div>
+
+      <ul class="plan-detail-features">
+        <li><span class="check">✓</span> <strong>Estructura One-Page:</strong> navegación por scroll en una sola pantalla.</li>
+        <li><span class="check">✓</span> <strong>Header:</strong> logotipo, menú con scroll suave y botón a WhatsApp.</li>
+        <li><span class="check">✓</span> <strong>Sección Principal:</strong> título con propuesta de valor, frase descriptiva y foto de portada.</li>
+        <li><span class="check">✓</span> <strong>Sobre Nosotros:</strong> breve párrafo de presentación.</li>
+        <li><span class="check">✓</span> <strong>Servicios Principales:</strong> hasta 4 servicios con iconos.</li>
+        <li><span class="check">✓</span> <strong>Galería Básica:</strong> 6 fotografías de tus productos o instalaciones.</li>
+        <li><span class="check">✓</span> <strong>Información Operativa:</strong> horario, dirección y mapa de Google Maps.</li>
+        <li><span class="check">✓</span> <strong>Botón flotante de WhatsApp</strong> fijo en la esquina inferior.</li>
+        <li><span class="check">✓</span> <strong>Enlaces a todas las redes sociales.</strong></li>
+      </ul>
+
+      <div class="plan-detail-actions">
+        <a href="https://wa.me/15551234567?text=Hola!%20Quiero%20el%20Plan%20Esencial." target="_blank" class="btn-primary">Quiero este plan</a>
+        <a href="#demos" class="btn-text">Ver demo →</a>
+      </div>
+    </div>
+
+    <div class="plan-detail-visual" data-animate="fade-left">
+      <div class="visual-mockup">
+        <div class="mockup-browser">
+          <div class="mockup-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mockup-content">
+            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80" alt="Demo Plan Esencial">
+          </div>
+        </div>
+        <div class="visual-float visual-float-1">🌱</div>
+        <div class="visual-float visual-float-2">✨</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PLAN PRO -->
+<section class="plan-detail plan-detail-reverse" id="pro">
+  <div class="plan-detail-inner">
+
+    <div class="plan-detail-visual" data-animate="fade-right">
+      <div class="visual-mockup">
+        <div class="mockup-browser">
+          <div class="mockup-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mockup-content">
+            <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=800&q=80" alt="Demo Plan Pro">
+          </div>
+        </div>
+        <div class="visual-float visual-float-1">🌿</div>
+        <div class="visual-float visual-float-2">💫</div>
+      </div>
+    </div>
+
+    <div class="plan-detail-content" data-animate="fade-left">
+      <span class="plan-detail-badge featured">Paquete 02 · El más elegido</span>
+      <h2 class="plan-detail-title">Pro</h2>
+      <p class="plan-detail-tagline">Todo lo del Esencial, más galería extendida, testimonios, preguntas frecuentes y barra promocional.</p>
+
+      <div class="plan-detail-price">
+        <span class="price-amount">$300.000</span>
+        <span class="price-note">pago único</span>
+      </div>
+
+      <div class="plan-detail-includes">
+        <span class="includes-label">Incluye todo lo del Plan Esencial, más:</span>
+      </div>
+
+      <ul class="plan-detail-features">
+        <li><span class="check check-plus">+</span> <strong>Galería Extensa (hasta 24 fotos):</strong> organizadas estéticamente, con ampliación en fondo oscuro al hacer clic.</li>
+        <li><span class="check check-plus">+</span> <strong>Carrusel de Testimonios:</strong> módulo deslizable con opiniones, fotos y estrellas de calificación.</li>
+        <li><span class="check check-plus">+</span> <strong>FAQ Estilo Acordeón:</strong> pestañas desplegables para resolver dudas de envíos, pagos y tiempos.</li>
+        <li><span class="check check-plus">+</span> <strong>Barra Promocional (Top Bar):</strong> franja superior para avisos importantes ("Envíos a todo el país", etc.).</li>
+      </ul>
+
+      <div class="plan-detail-actions">
+        <a href="https://wa.me/15551234567?text=Hola!%20Quiero%20el%20Plan%20Pro." target="_blank" class="btn-primary">Quiero este plan</a>
+        <a href="#demos" class="btn-text">Ver demo →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PLAN PREMIUM -->
+<section class="plan-detail" id="premium">
+  <div class="plan-detail-inner">
+
+    <div class="plan-detail-content" data-animate="fade-right">
+      <span class="plan-detail-badge premium">Paquete 03 · Experiencia completa</span>
+      <h2 class="plan-detail-title">Premium</h2>
+      <p class="plan-detail-tagline">Todo lo del Pro, más la elección de tu modalidad: carrito de compras o sistema de citas. Ambas con checkout por WhatsApp.</p>
+
+      <div class="plan-detail-price">
+        <span class="price-amount">$450.000</span>
+        <span class="price-note">pago único</span>
+      </div>
+
+      <div class="modalidades">
+        <div class="modalidad">
+          <div class="modalidad-header">
+            <span class="modalidad-tag">Modalidad A</span>
+            <h4>Carrito de Compras</h4>
+            <span class="modalidad-sub">Direct-to-WhatsApp</span>
+          </div>
+          <ul class="modalidad-features">
+            <li>40-50 productos con foto, título, descripción corta y precio.</li>
+            <li>Botón "Añadir al Carrito" con selector de cantidad.</li>
+            <li>Carrito flotante con contador.</li>
+            <li>Ventana emergente con desglose y total en pesos.</li>
+            <li>Checkout automático a WhatsApp con el pedido completo.</li>
+          </ul>
+        </div>
+
+        <div class="modalidad-separator">
+          <span>o</span>
+        </div>
+
+        <div class="modalidad">
+          <div class="modalidad-header">
+            <span class="modalidad-tag">Modalidad B</span>
+            <h4>Sistema de Citas</h4>
+            <span class="modalidad-sub">Agendamiento por WhatsApp</span>
+          </div>
+          <ul class="modalidad-features">
+            <li>Catálogo de servicios con duración y precio.</li>
+            <li>Calendario visual de reserva.</li>
+            <li>Selector de servicio, día y bloque horario.</li>
+            <li>Confirmación enviada a WhatsApp lista para aprobar.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="plan-detail-actions">
+        <a href="https://wa.me/15551234567?text=Hola!%20Quiero%20el%20Plan%20Premium." target="_blank" class="btn-primary">Quiero este plan</a>
+        <a href="#demos" class="btn-text">Ver demo →</a>
+      </div>
+    </div>
+
+    <div class="plan-detail-visual" data-animate="fade-left">
+      <div class="visual-mockup">
+        <div class="mockup-browser">
+          <div class="mockup-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mockup-content">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80" alt="Demo Plan Premium">
+          </div>
+        </div>
+        <div class="visual-float visual-float-1">🌳</div>
+        <div class="visual-float visual-float-2">👑</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TABLA COMPARATIVA -->
+<section class="comparativa" id="comparativa">
+  <div class="section-header" data-animate="fade-up">
+    <span class="section-eyebrow">Comparativa</span>
+    <h2>Todo lo que incluye cada plan</h2>
+    <p>Compara lado a lado y elige con confianza.</p>
+  </div>
+
+  <div class="comparativa-wrapper" data-animate="fade-up">
+    <table class="comparativa-table">
+      <thead>
+      <tr>
+        <th>Característica</th>
+        <th>Esencial</th>
+        <th class="th-featured">Pro</th>
+        <th>Premium</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Estructura One-Page</td>
+        <td>✓</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Header + Menú + WhatsApp</td>
+        <td>✓</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Sección Principal (Hero)</td>
+        <td>✓</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Sobre Nosotros</td>
+        <td>✓</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Servicios (hasta 4)</td>
+        <td>✓</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Galería de fotos</td>
+        <td>6 fotos</td>
+        <td class="td-featured">Hasta 24 fotos</td>
+        <td>Hasta 50 fotos</td>
+      </tr>
+      <tr>
+        <td>Lightbox (foto ampliada)</td>
+        <td>—</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Mapa de Google Maps</td>
+        <td>✓</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Carrusel de Testimonios</td>
+        <td>—</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>FAQ Acordeón</td>
+        <td>—</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Barra Promocional Top Bar</td>
+        <td>—</td>
+        <td class="td-featured">✓</td>
+        <td>✓</td>
+      </tr>
+      <tr>
+        <td>Catálogo de productos</td>
+        <td>—</td>
+        <td class="td-featured">—</td>
+        <td>40-50 productos</td>
+      </tr>
+      <tr>
+        <td>Carrito de compras</td>
+        <td>—</td>
+        <td class="td-featured">—</td>
+        <td>Modalidad A</td>
+      </tr>
+      <tr>
+        <td>Sistema de citas</td>
+        <td>—</td>
+        <td class="td-featured">—</td>
+        <td>Modalidad B</td>
+      </tr>
+      <tr>
+        <td>Checkout por WhatsApp</td>
+        <td>—</td>
+        <td class="td-featured">—</td>
+        <td>✓</td>
+      </tr>
+      <tr class="td-price-row">
+        <td><strong>Precio</strong></td>
+        <td><strong>$200.000</strong></td>
+        <td class="td-featured"><strong>$300.000</strong></td>
+        <td><strong>$450.000</strong></td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- DEMOS EN VIVO -->
+<section class="demos" id="demos">
+  <div class="section-header" data-animate="fade-up">
+    <span class="section-eyebrow">Demos en vivo</span>
+    <h2>Míralos en acción</h2>
+    <p>Haz clic en cualquier plan para ver un ejemplo real funcionando.</p>
+  </div>
+
+  <div class="demos-grid">
+    <a href="https://tunombre.github.io/pasteleria" target="_blank" class="demo-card" data-animate="fade-up" data-delay="100">
+      <div class="demo-thumb">
+        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80" alt="Demo Pastelería">
+        <div class="demo-overlay">
+          <span class="demo-cta">Ver demo →</span>
+        </div>
+      </div>
+      <div class="demo-info">
+        <h3>Pastelería</h3>
+        <span class="demo-plan">Plan Esencial</span>
+      </div>
+    </a>
+
+    <a href="https://tunombre.github.io/floristeria" target="_blank" class="demo-card" data-animate="fade-up" data-delay="150">
+      <div class="demo-thumb">
+        <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=600&q=80" alt="Demo Floristería">
+        <div class="demo-overlay">
+          <span class="demo-cta">Ver demo →</span>
+        </div>
+      </div>
+      <div class="demo-info">
+        <h3>Floristería</h3>
+        <span class="demo-plan">Plan Pro</span>
+      </div>
+    </a>
+
+    <a href="https://tunombre.github.io/velas" target="_blank" class="demo-card" data-animate="fade-up" data-delay="200">
+      <div class="demo-thumb">
+        <img src="https://images.unsplash.com/photo-1602874801006-e26d9c4c7c7e?w=600&q=80" alt="Demo Velas">
+        <div class="demo-overlay">
+          <span class="demo-cta">Ver demo →</span>
+        </div>
+      </div>
+      <div class="demo-info">
+        <h3>Velas Artesanales</h3>
+        <span class="demo-plan">Plan Pro</span>
+      </div>
+    </a>
+
+    <a href="https://tunombre.github.io/joyeria" target="_blank" class="demo-card" data-animate="fade-up" data-delay="250">
+      <div class="demo-thumb">
+        <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=600&q=80" alt="Demo Joyería">
+        <div class="demo-overlay">
+          <span class="demo-cta">Ver demo →</span>
+        </div>
+      </div>
+      <div class="demo-info">
+        <h3>Joyería</h3>
+        <span class="demo-plan">Plan Premium · Carrito</span>
+      </div>
+    </a>
+
+    <a href="https://tunombre.github.io/barberia" target="_blank" class="demo-card" data-animate="fade-up" data-delay="300">
+      <div class="demo-thumb">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80" alt="Demo Barbería">
+        <div class="demo-overlay">
+          <span class="demo-cta">Ver demo →</span>
+        </div>
+      </div>
+      <div class="demo-info">
+        <h3>Barbería</h3>
+        <span class="demo-plan">Plan Premium · Citas</span>
+      </div>
+    </a>
+
+    <a href="https://tunombre.github.io/desayunos" target="_blank" class="demo-card" data-animate="fade-up" data-delay="350">
+      <div class="demo-thumb">
+        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&q=80" alt="Demo Desayunos">
+        <div class="demo-overlay">
+          <span class="demo-cta">Ver demo →</span>
+        </div>
+      </div>
+      <div class="demo-info">
+        <h3>Desayunos Sorpresa</h3>
+        <span class="demo-plan">Plan Pro</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- PREGUNTAS FRECUENTES -->
+<section class="faq" id="faq">
+  <div class="section-header" data-animate="fade-up">
+    <span class="section-eyebrow">Preguntas frecuentes</span>
+    <h2>¿Tienes dudas?</h2>
+    <p>Aquí respondemos las más comunes.</p>
+  </div>
+
+  <div class="faq-list" data-animate="fade-up">
+    <details class="faq-item">
+      <summary>¿Cuánto tiempo tarda la entrega?</summary>
+      <p>Entre 5 y 10 días hábiles, dependiendo del plan. El tiempo empieza a contar cuando recibimos toda la información (logo, textos e imágenes).</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>¿El hosting y dominio están incluidos?</summary>
+      <p>El precio del plan es solo por el diseño. El hosting + dominio (1 año) tiene un costo adicional de $150.000 COP, y nos encargamos de toda la configuración.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>¿Puedo modificar la web yo mismo después?</summary>
+      <p>La web es estática, así que las modificaciones las hacemos nosotros. Ofrecemos planes de mantenimiento desde $30.000/mes, o cambios puntuales desde $8.000.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>¿Incluye carrito de compras real?</summary>
+      <p>El Plan Premium incluye un carrito "Direct-to-WhatsApp": los productos se añaden al carrito y al final se genera un mensaje ordenado con el pedido completo para enviarlo por WhatsApp. No incluye pasarela de pago (cotización aparte).</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>¿Puedo cambiar de plan después?</summary>
+      <p>¡Claro! Puedes empezar con el Esencial y luego subir a Pro o Premium pagando la diferencia. También puedes agregar funcionalidades puntuales como servicio adicional.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>¿Qué pasa si quiero un cambio después de entregado?</summary>
+      <p>Los cambios simples (texto, imagen, color) tienen un costo desde $8.000. También ofrecemos planes de mantenimiento mensual desde $30.000 con 2 cambios incluidos.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>¿Cómo se realiza el pago?</summary>
+      <p>Anticipo del 50% para empezar, 50% contra entrega. Aceptamos Nequi, Daviplata, transferencia bancaria y PayPal.</p>
+    </details>
+
+    <details class="faq-item">
+      <summary>¿Trabajan con negocios de toda Colombia?</summary>
+      <p>Sí. Trabajamos 100% remoto con negocios de todo el país. La comunicación es por WhatsApp, correo y videollamadas.</p>
+    </details>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-final">
+  <div class="cta-final-bg"></div>
+  <div class="cta-final-inner" data-animate="fade-up">
+    <span class="section-eyebrow light">¿Listo para empezar?</span>
+    <h2>Tu próxima web está a un mensaje de distancia.</h2>
+    <p>Cuéntanos sobre tu negocio y te asesoramos gratis para elegir el plan ideal.</p>
+
+    <div class="cta-final-buttons">
+      <a href="https://wa.me/15551234567?text=Hola!%20Quiero%20asesoría%20para%20elegir%20un%20plan." target="_blank" class="btn-primary light">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        Hablar por WhatsApp
+      </a>
+      <a href="#planes" class="btn-outline light">Volver a los planes</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-icon">◆</span>
+      <span class="logo-text">GLORIA <span class="logo-accent">TECHNOLOGY</span></span>
+      <p>Diseño web profesional para emprendimientos y pequeñas empresas.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Planes</h4>
+      <a href="#esencial">Esencial</a>
+      <a href="#pro">Pro</a>
+      <a href="#premium">Premium</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Recursos</h4>
+      <a href="#comparativa">Comparativa</a>
+      <a href="#demos">Demos</a>
+      <a href="#faq">FAQ</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <a href="https://wa.me/15551234567" target="_blank">WhatsApp</a>
+      <a href="mailto:hola@gloriatech.com">hola@gloriatech.com</a>
+      <a href="https://instagram.com/gloriatech" target="_blank">Instagram</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Gloria Technology. Todos los derechos reservados.</p>
+    <p>Hecho con ♥ en Colombia.</p>
+  </div>
+</footer>
+
+<!-- WhatsApp Flotante -->
+<a href="https://wa.me/15551234567?text=Hola!%20Quiero%20información%20sobre%20los%20planes." target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
+
+<script src="js/app.js"></script>
+</body>
+</html>
